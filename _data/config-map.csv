@@ -1,5 +1,12 @@
 field,display_name,search
-date,Date,true
-creator,Creator,true
-subject,Subjects,true
-location,Location,true
+objectid, Object ID,
+inventoried, Inventory Status,true
+title, Title,
+publication, Publication,true
+location, Location,true
+date, Date
+year, Year, true
+notes, Notes,true
+teams, Teams,true
+game_result, Game Info, true
+play_info, Player Info, true
