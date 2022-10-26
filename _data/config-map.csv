@@ -3,8 +3,8 @@ objectid, Object ID,
 inventoried, Inventory Status,true
 title, Title,
 publication, Publication,true
-location, Location,true
-date, Date
+location, Location, true
+date, Date,
 year, Year, true
 notes, Notes,true
 teams, Teams,true
