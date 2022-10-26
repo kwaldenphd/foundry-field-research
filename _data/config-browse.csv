@@ -6,7 +6,7 @@ publication, Publication,true,,true
 location, Location,,,true
 date, Date,,,
 year, Year, true,, true
-notes, Notes,,,,
-teams, Teams,true,,,
+notes, Notes,,,
+teams, Teams,true,,
 game_result, Game Info,,,
 play_info, Player Info,,,
