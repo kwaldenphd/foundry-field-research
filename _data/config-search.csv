@@ -7,6 +7,6 @@ location, true,true
 date, true,true
 year, true,true
 notes, true,true
-teams, Teams,true,true
+teams, true,true
 game_result, true,true
 play_info, true,true
