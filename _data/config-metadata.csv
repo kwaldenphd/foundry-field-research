@@ -7,6 +7,6 @@ location, Location,true
 date, Date,,
 year, Year, true
 notes, Notes,,
-teams, Teams,true,
+teams, Teams,true
 game_result, Game Info,,
 play_info, Player Info,,
