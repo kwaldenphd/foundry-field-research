@@ -1,15 +1,12 @@
 field,display_name,browse_link,external_link
-title,Title,
-creator,Creator,
-date,Date Created,
-description,Description,
-subject,Subjects,true
-location,Location
-latitude,Latitude
-longitude,Longitude
-source,Source
-identifier,Source Identifier,,
-type,Type,
-format,Format,
-rights,Rights,
-rightsstatement,Rights Statement,,true
+objectid, Object ID,,
+inventoried, Inventory Status,,
+title, Title,,
+publication, Publication,true,
+location, Location,true
+date, Date,
+year, Year, true
+notes, Notes,
+teams, Teams,true,,
+game_result, Game Info,
+play_info, Player Info,
