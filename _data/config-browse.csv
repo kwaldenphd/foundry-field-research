@@ -4,7 +4,7 @@ inventoried, Inventory Status,,,
 title, Title,,,true
 publication, Publication,true,,true
 location, Location,,,true
-date, Date,,,,
+date, Date,,,
 year, Year, true,, true
 notes, Notes,,,,
 teams, Teams,true,,,
