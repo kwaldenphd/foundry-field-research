@@ -1,5 +1,10 @@
 field,display_name
-title,Title
-date,Date
-description,Description
-subject,Subjects
+inventoried, Inventory Status
+publication, Publication
+location, Location
+date, Date
+year, Year
+notes, Notes
+teams, Teams
+game_result, Game Info
+play_info, Player Info
