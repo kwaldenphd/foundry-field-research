@@ -1,5 +1,12 @@
 field,display_name,btn,hidden,sort_name
-date,Date,,,Date
-creator,Creator,,,
-subject,,true
-location,,true
+objectid, Object ID,,,
+inventoried, Inventory Status,,,
+title, Title,,,true
+publication, Publication,true,,true
+location, Location,,,true
+date, Date,,,,
+year, Year, true,, true
+notes, Notes,,,,
+teams, Teams,true,,,
+game_result, Game Info,,,
+play_info, Player Info,,,
