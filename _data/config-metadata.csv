@@ -2,11 +2,11 @@ field,display_name,browse_link,external_link
 objectid, Object ID,,
 inventoried, Inventory Status,,
 title, Title,,
-publication, Publication,true,
+publication, Publication,true
 location, Location,true
-date, Date,
+date, Date,,
 year, Year, true
-notes, Notes,
-teams, Teams,true,,
-game_result, Game Info,
-play_info, Player Info,
+notes, Notes,,
+teams, Teams,true,
+game_result, Game Info,,
+play_info, Player Info,,
