@@ -4,11 +4,7 @@ layout: page
 <div>
   {%- assign items = site.data[site.metadata] -%}
   {% include index/description.html %}
-<div class="col-md-12">
-<figure class="figure">
-<img src="images/Foundry_Giants.jpg" class="img-fluid" alt= "Image of Foundry Giants Studebaker League Baseball Team"></img></figure>
-{% include index/description.html %}
-</div>
+  {% include index/carousel.html title="Sample Materials" %}
 </div>
 <div class="container">
 <div class="row">
@@ -16,10 +12,10 @@ layout: page
 {% include index/time.html %}
 </div>
   <div class="col-sm">
-    {% include index/featured-terms.html field="publication" title="Publication" btn-color="info" %}
+    {% include index/featured-terms.html field="collection" title="Collection" btn-color="info" %}
   </div>   
   <div class="col-sm">
-    {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" %}
+    {% include index/featured-terms.html field="type" title="Object Types" btn-color="outline-secondary" %}
   </div>
   </div>
 </div>

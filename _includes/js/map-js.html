@@ -1,6 +1,3 @@
-{%- if site.data.theme.icons -%}{% assign icons = site.data.theme.icons %}{% else %}
-{% assign cb_icons = site.pages | where: "name","cb-icons.svg" | first %}
-{% assign icons = cb_icons.icons %}{%- endif -%}
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.latitude' -%}
 {%- assign fields = site.data.config-map -%}
 <!-- load leaflet dependencies -->
@@ -58,14 +55,7 @@
     var options = {
         title: 'Search Map Items',
         locationholder: 'Search map items...',
-        threshold: {{ site.data.theme.map-search-fuzziness | default: 0.35 }},
-        showResultFct: function(feature, container) {
-            var result = `<strong>${feature.properties.title}</strong><br>`;
-            {% for f in fields %}
-            if(feature.properties[{{ f.field | jsonify }}]) { result += feature.properties[{{ f.field | jsonify }}] + `<br>`; }
-            {% endfor %}
-            container.innerHTML = result;
-        }
+        threshold: {{ site.data.theme.map-search-fuzziness | default: 0.35 }} 
     };
     var searchCtrl = L.control.fuseSearch(options);
     searchCtrl.addTo(map);
@@ -89,13 +79,13 @@
         } else if (feature.properties.format && feature.properties.format.includes("image")) {
             thumbSrc = feature.properties.filename;
         } else if (feature.properties.format && feature.properties.format.includes("audio")) {
-            thumbSrc = '{{ "/assets/lib/icons/" | relative_url }}{{ icons.icon-audio }}.svg';
+            thumbSrc = '{{ "/assets/img/audio.svg" | relative_url }}';
         } else if (feature.properties.format && feature.properties.format.includes("video")) {
-            thumbSrc = '{{ "/assets/lib/icons/" | relative_url }}{{ icons.icon-video }}.svg'; 
+            thumbSrc = '{{ "/assets/img/video.svg" | relative_url }}'; 
         } else if (feature.properties.format && feature.properties.format.includes("pdf")) {
-            thumbSrc = '{{ "/assets/lib/icons/" | relative_url }}{{ icons.icon-pdf }}.svg';    
+            thumbSrc = '{{ "/assets/img/pdf.svg" | relative_url }}';    
         } else {
-            thumbSrc = '{{ "/assets/lib/icons/" | relative_url }}{{ icons.icon-default }}.svg';
+            thumbSrc = '{{ "/assets/img/file.svg" | relative_url }}';
         }    
         /* create popup content */
         var popupTemplate = '<h4><a class="text-dark" href="' + itemHref + '">' +

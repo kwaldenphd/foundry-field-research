@@ -1,10 +1,8 @@
 field,display_name
-inventoried, Inventory Status
-publication, Publication
-location, Location
-date, Date
-year, Year
-notes, Notes
-teams, Teams
-game_result, Game Info
-play_info, Player Info
+title,Title
+date,Year
+date_exact,Date
+month/season,Month/Season
+type,Type
+creator,Creator
+collection,Collection

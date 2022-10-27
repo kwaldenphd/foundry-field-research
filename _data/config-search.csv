@@ -1,12 +1,9 @@
 field,index,display
-objectid,,true
-inventoried,,true
-title,,false
-publication, true,true
-location, true,true
-date, true,true
-year, true,true
-notes, true,true
-teams, true,true
-game_result, true,true
-play_info, true,true
+title,true,true
+volume,true,true
+date,true,true
+date_exact,true,true
+month/season,true,true
+creator,true,false
+type,true,true
+collection,true,true
