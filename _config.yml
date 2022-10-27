@@ -14,18 +14,18 @@
 # on GitHub Pages it is your github repository's name prefixed with a /
 #baseurl: /nd-archives 
 # location of code, the full url to your github repository
-source-code: https://github.com/kwaldenphd/nd-archives
+source-code: https://github.com/kwaldenphd/foundry-field-research
 
 ##########
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Football in America 
+title: Foundry Field 
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Football Materials in University of Notre Dame Archives
+tagline: Baseball materials
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: This site features select football-related collections from the University of Notre Dame Archives. Metadata was generated as part of Prof. Katherine Walden's F21 "Football In America" course.
+description: Something baseball!
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: K. Walden
 
@@ -34,7 +34,7 @@ author: K. Walden
 #
 # Set the metadata for your collection (the name of the csv file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: collectionbuilder_metadata
+metadata: foundry-giants
 
 ##########
 # GOOGLE SERVICES [optional!]
